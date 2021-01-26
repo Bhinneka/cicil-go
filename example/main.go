@@ -1,10 +1,10 @@
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/abdulahwahdi/cicil-go"
-	"time"
+    "encoding/json"
+    "fmt"
+    "github.com/Bhinneka/cicil-go"
+    "time"
 )
 
 const (

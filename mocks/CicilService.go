@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	cicil "github.com/abdulahwahdi/cicil-go"
+	cicil "github.com/Bhinneka/cicil-go"
 	mock "github.com/stretchr/testify/mock"
 )
 

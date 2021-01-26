@@ -1,4 +1,4 @@
-module github.com/abdulahwahdi/cicil-go
+module github.com/Bhinneka/cicil-go
 
 go 1.13
 
