@@ -170,7 +170,7 @@ func (c *cicil) UpdateStatus (param UpdateStatusRequest) (resp UpdateStatusRespo
 	headers["Date"] = getDate
 	headers["Authorization"] = fmt.Sprintf("Basic %s", getDiggest)
 
-	pathGetOrderURL := "po/update"
+	pathGetOrderURL := "po/notify"
 	//Marshal Order
 	payload, errPayload := json.Marshal(param)
 	if errPayload != nil {
