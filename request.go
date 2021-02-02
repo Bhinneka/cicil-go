@@ -73,6 +73,6 @@ type UpdateStatusRequest struct {
     POStatus         string `json:"po_status"`
     TransactionID    string `json:"transaction_id"`
     Reason           string `json:"reason,omitempty"`
-    ShipmentNo       string `json:"shipment_no"`
-    ShipmentProvider string `json:"shipment_provider"`
+    ShipmentNo       string `json:"shipment_no,omitempty"`
+    ShipmentProvider string `json:"shipment_provider,omitempty"`
 }
